@@ -138,6 +138,10 @@ p {
      line-height: 24px;
 }
 
+.rclm {
+     margin-top: 14px;
+}
+
 a {
      color: #222222;
      text-decoration: none;
@@ -255,7 +259,7 @@ button {
      content: "";
      width: 0px;
      height: 1px;
-     border: #f0390f solid 1px;
+     border: #03ffd2 solid 1px;
      transition: all 0.2s linear;
      display: block;
      margin-bottom: -16px;
@@ -273,7 +277,7 @@ button {
 }
 
 .read_more:hover {
-     color: #f0390f;
+     color: #03ffd2;
      transition: ease-in all 0.5s;
 }
 
@@ -357,15 +361,15 @@ z-index: 999;
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #fff;
-     background: #f0390f;
+     background: #03ffd2;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fff;
-     background: #f0390f;
+     color: #006351;
+     background: #03ffd2;
 }
 
 .di_no {
@@ -822,7 +826,7 @@ ul.email li i {
 }
 
 .border_left {
-     border-left: #f0390f solid 1px;
+     border-left: #02ffd2 solid 1px;
      padding-left: 40px;
 }
 
@@ -873,7 +877,7 @@ ul.conta li i {
      padding-right: 15px;
      text-align: center;
      font-size: 18px;
-     color: #5326d3;
+     color: #25665a;
 }
 
 ul.conta li a {
@@ -903,9 +907,9 @@ ul.conta li a {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #f0390f;
+     background-color: #03ffd2;
      text-transform: uppercase;
-     color: #fff;
+     color: #0c6e5c;
      max-width: 220px;
      width: 100%;
      display: block;
@@ -917,7 +921,7 @@ ul.conta li a {
 }
 
 .subsci_btn:hover {
-     background-color: #3e0bce;
+     background-color: #006351;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -949,7 +953,7 @@ ul.fullink li:nth-child(5) {
 
 ul.social_icon {
      float: left;
-     padding-top: 0px;
+     padding-top: 40px;
 }
 
 ul.social_icon li {
@@ -982,11 +986,11 @@ ul.social_icon li a:hover {
 .copyright {
      margin-top: 90px;
      padding-bottom: 25px;
-     background: #f0390f
+     background: #03ffd2
 }
 
 .copyright p {
-     color: #fff;
+     color: #044438;
      font-size: 17 px;
      line-height: 22px;
      text-align: center;
@@ -1010,7 +1014,7 @@ ul.social_icon li a:hover {
 /**  inner page css **/
 
 .inner_page .header {
-     box-shadow: 0 0 10px rgb(240, 57, 15);
+     box-shadow: 0 0 10px #03ffd2;
      margin-bottom: 10px;
      position: inherit;
 }
